@@ -1,0 +1,69 @@
+body {
+    background-image: url(./Sky.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-bottom: 10px;
+}
+hr{
+    border: 0.01px solid black;
+    width: 500px;
+}
+div {
+    width: 80%;
+    background-color: skyblue;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content inside the div */
+}
+
+table {
+    width: 40%;
+    margin-top: 20px;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+
+
+
+
+
+td button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 2px 6px; /* Reduced padding for a more compact button */
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+td button:hover {
+    background-color: #d32f2f;
+}
+td:first-child {
+    width: 1%; /* Makes the column width fit the content */
+    white-space: nowrap; /* Prevents wrapping and ensures the column is just wide enough */
+}
+th:last-child {
+    width: 1%; /* Makes the column width fit the content */
+    white-space: nowrap; /* Prevents wrapping and ensures the column is just wide enough */
+}
+.price {
+    text-align: right; /* Aligns the text in the third column to the right */
+    max-width: 50px;
+}
