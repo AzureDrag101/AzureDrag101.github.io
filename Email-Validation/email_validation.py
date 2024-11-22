@@ -1,5 +1,4 @@
 #Author:Kosy Okafor
-#Class:CSCI 1170-02
 #Date:November 23,2022
 #This program validates emails within text files
 def main():
