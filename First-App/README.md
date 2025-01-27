@@ -16,4 +16,4 @@ I want to build an app that tells users of places local to their area.
 I want to help people new to their area be able to know their area better through this app.
 This app will need to be able to use location services to know the local area. 
 Their should be buttons for specific categories like: Food, Clothes, Shops, and Parks and Attractions.
-Their should alos be notifications when new stores open up.
+Their should also be notifications when new stores open up.
