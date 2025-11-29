@@ -41,3 +41,21 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     addButton.addEventListener('click', addItem);
 });
+
+document.getElementById("printPosterBtn").addEventListener("click", function() {
+    // Get the poster content
+    var posterContent = document.getElementById("list").innerHTML;
+    var originalContent = document.body.innerHTML;
+
+    // Replace page content with poster content
+    document.body.innerHTML = posterContent;
+
+    // Open print dialog
+    window.print();
+
+    // Restore original page content
+    document.body.innerHTML = originalContent;
+
+    // Re-attach event listeners (important after restoring content)
+    location.reload();
+});
